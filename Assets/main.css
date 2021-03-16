@@ -1,0 +1,12 @@
+.app{
+    background-color: lightgray
+}
+.bg-gray{
+    background-color: lightgray
+}
+.nav-link{
+    color: lightgray
+}
+.nav-link:hover{
+    color:gray
+}
