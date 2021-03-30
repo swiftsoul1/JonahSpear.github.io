@@ -24,9 +24,11 @@ let Standard = {
         <div v-if='page.skills'>
             <h3 class='row'>◦ Skills</h3>
             <ul class='row bg-gray'>
-                <li class='font-weight-light' v-for='skill in page.skills'>
-                    {{skill}}
-                </li>
+                <div class='col-lg-8' v-for='skill in page.skills'>
+                    <li class='font-weight-light' >
+                        {{skill}}
+                    </li>
+                </div>
             </ul>
         </div>
         <div v-if='page.educations'>

@@ -3,10 +3,6 @@ let data = {
         //home
         {
             slug: "home",
-        },
-        //resume
-        {
-            slug: "resume",
             skills:[
                 "User Interfaces: Proficient with design structure standard java/python UI libraries, windows and WPF forms  and many other presentation tools. (Java, Python, C++, and C#)",
                 "Web and App Design: Understanding of Bootstrap, React-native, Vue, ASP.net Web design structures, PHP, HTML, CSS, and Javascript to create Web and phone app as well as Knowledge of working with Android based apps.",
@@ -39,7 +35,7 @@ let data = {
                         'Responsible for creating Webpages based on the designers ideas.',
                         'Worked with Curator of the Museum to ensure content was accurate.',
                         'Created organized data structure based on which page was to be displayed.',
-                        'https://yokai.moifa.org/#/',
+                        '<a href="https://yokai.moifa.org/#/" target="_blank">Live Site</a>',
                         
                     ]
                 },
