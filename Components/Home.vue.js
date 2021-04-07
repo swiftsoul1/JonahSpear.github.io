@@ -7,7 +7,7 @@ let HomePage = {
 		
 	},
 	template:  `
-<div class="container-fluid p-0 m-0">
+<div class="container-fluid p-4 m-0">
     <div class="container-fluid p-3 m-0">
         <div v-if='page.skills'>
             <h3 class='row'>◦ Skills</h3>
