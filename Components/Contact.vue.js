@@ -7,7 +7,10 @@ let Contact = {
 	 },
     methods:{
         sendEmail: function (event){
-            
+            let subject = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let body = document.getElementById("reason").value;
+            window.open('mailto:jonah.spear1@gmail.com?subject='+email+'&body='+body+ '\n'+ name);
         }
     },
 	 template:  `
