@@ -13,7 +13,7 @@ let HomePage = {
             <h3 class='row'>◦ Skills</h3>
             <ul class='row bg-gray'>
                 <div class='col-lg-8' v-for='skill in page.skills'>
-                    <li class='font-weight-light' >
+                    <li class='font-weight-light'>
                         {{skill}}
                     </li>
                 </div>

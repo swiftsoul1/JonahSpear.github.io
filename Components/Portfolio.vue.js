@@ -9,17 +9,17 @@ let Portfolio = {
 	 template:  `
 <div class="container-fluid p-2 m-2">
     <!-- title -->
-    <h1 class='text-capitalize p-0 m-0' v-html='page.slug'></h1>
-    <div class="p-2 m-3 row border border-dark" v-for="item in page.items">
-        <div class="col-sm-5 col-md-3 p-0 m-1 border border-secondary">
-            <img class="img-fluid m-0 p-3" v-bind:src="item.featured">
-        </div>
-        <div class="col p-0 m-1 border border-secondary">
-            <div class="blockquote p-3">
-                <h5 v-html="item.name"></h5>
-                <p v-html="item.summary"></p>
-                <a v-bind:href="item.link.ref" target="_blank">{{item.link.text}}</a>
-            </div>
+    <h1 class='text-capitalize p-3 m-0' v-html='page.slug'></h1>
+    <div class="row">  
+        <div class="col-sm-12 col-md-4" v-for="item in page.items">
+            <div class="card h-100">
+                <img class="card-img-top fixed-height-1" v-bind:src="item.featured">
+                <div class="card-body mh-100">
+                    <h5 class="card-title">{{item.name}}</h5>
+                    <p class="card-text">{{item.summary}}</p>
+                    <a v-bind:href="item.link.ref" target="_blank" class="btn btn-primary">{{item.link.text}}</a>
+                </div>
+            </div>   
         </div>
     </div>
 </div>

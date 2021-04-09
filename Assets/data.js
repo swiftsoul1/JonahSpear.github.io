@@ -4,7 +4,8 @@ let data = {
         {
             slug: 'home',
             skills:[
-                'User Interfaces: Proficient with design structure standard java/python UI libraries, windows and WPF forms  and many other presentation tools. (Java, Python, C++, and C#)',
+                'Programming languages: C#, C++, Java, Javascript, HTML/CSS, XML/XAML layouts, Python, SQL/NoSQL, PHP',
+                'User Interfaces: Proficient with design structure standard java/python UI libraries, windows and WPF forms  and many other presentation tools.',
                 'Web and App Design: Understanding of Bootstrap, React-native, Vue, ASP.net Web design structures, PHP, HTML, CSS, and Javascript to create Web and phone app as well as Knowledge of working with Android based apps.',
                 'Advanced Problem-Solving Skills: Understands use of object orientated programming for the use of advanced arithmetic to move, store and manipulate data',
                 'SQL and NoSQL database design: create, edit, data-mine, connect to a data base using SQL standards in many environments.',
@@ -13,16 +14,16 @@ let data = {
             ],
             educations:[
                 {
+                    name: 'New Mexico Highlands University, Albuquerque, NM',
+                    date: 'Spring 2020-(expected graduation December 2022)',
+                    degree: 'BSSD “Bachelors of Software Systems Design"',
+                    gpa:'GPA: N/A',
+                },
+                {
                     name: 'Central New Mexico Community College, Albuquerque, NM',
                     date: 'September 2016-Spring 2020',
                     degree: 'AAS “Computer Information Systems (CIS) - Programming Concentration Degree”',
                     gpa:'GPA: 3.29',
-                },
-                {
-                    name: 'New Mexico Highlands University, Albuquerque, NM',
-                    date: 'Spring 2020-Current',
-                    degree: 'BSSD “Bachelors Software Systems Design"',
-                    gpa:'GPA: N/A',
                 },
             ],
             workplaces:[
@@ -64,7 +65,7 @@ let data = {
                         ref:'https://yokai.moifa.org/',
                         text:'Live Site'
                     },
-                    summary:'Worked with the staff of the museum, a designer and was supervised by an NMHU teacher to create an Online Version of the "Yokai: Ghost and Demons of Japan" exhibit at the Santa Fe Museum of natural folk art, so that it could still be "visitable" during the Covid Lockdown',
+                    summary:'Worked with the staff of the museum, a student designer and was supervised by an NMHU teacher to create an Online Version of the "Yokai: Ghost and Demons of Japan" exhibit at the Santa Fe Museum of natural folk art, so that it could still be "visitable" during the Covid Lockdown',
                 },
                 {
                     name:'JavaScript Dnd Character Creator',
@@ -77,5 +78,9 @@ let data = {
                 },
             ]
         },
+        //contact
+        {
+            slug:'contact',
+        }
     ]
 }

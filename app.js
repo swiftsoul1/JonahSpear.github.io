@@ -2,7 +2,9 @@ let routes = [
     /*home*/
     { path: '/', component: HomePage, name:"home"},
     //primary
-    { path: '/:pageid', component: Portfolio, name:"portfolio", props: true},
+    { path: '/portfolio', component: Portfolio, name:"portfolio", props: true},
+    //primary
+    { path: '/contact', component: Contact, name:"contact", props: true},
 ];
 
 let router = new VueRouter({
