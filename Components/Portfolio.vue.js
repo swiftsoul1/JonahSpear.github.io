@@ -12,7 +12,7 @@ let Portfolio = {
     <h1 class='text-capitalize p-3 m-0' v-html='page.slug'></h1>
     <div class="row">  
         <div class="col-sm-12 col-md-4" v-for="item in page.items">
-            <div class="card h-100">
+            <div class="card h-100 rounded">
                 <img class="card-img-top fixed-height-1" v-bind:src="item.featured">
                 <div class="card-body mh-100">
                     <h5 class="card-title">{{item.name}}</h5>
